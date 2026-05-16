@@ -5,43 +5,95 @@
 <p align="center">
   <a href="https://zeiddata.com"><img alt="Website" src="https://img.shields.io/badge/Website-00B8A9?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://github.com/zeiddata-dev/Research"><img alt="Research Lab" src="https://img.shields.io/badge/Research%20Lab-0B5FFF?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/detections"><img alt="Detections" src="https://img.shields.io/badge/Detections-FFB800?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/tools/scripts"><img alt="Automation" src="https://img.shields.io/badge/Automation-2EA043?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/zeiddata-dev/Research/releases"><img alt="Releases" src="https://img.shields.io/badge/Releases-7B61FF?style=for-the-badge&logo=githubactions&logoColor=white"></a>
+  <a href="https://github.com/zeiddata-dev/Research/actions"><img alt="CI" src="https://img.shields.io/badge/CI-validated-22C55E?style=for-the-badge&logo=githubactions&logoColor=white"></a>
   <a href="https://github.com/zeiddata-dev/Research/security/policy"><img alt="Security Policy" src="https://img.shields.io/badge/Security%20Policy-D83B01?style=for-the-badge&logo=shield&logoColor=white"></a>
 </p>
 
-# Zeid Data
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Evidence-first+security+research;Detection+engineering+with+receipts;Automation+that+says+what+it+changed;Robot+humor%2C+human+accountability" alt="Typing SVG">
+</p>
 
-Zeid Data builds security research, detection engineering, automation, and data tooling for evidence-first operations.
+<h1 align="center">Zeid Data</h1>
 
-## Featured
+<p align="center">
+  <strong>Security research · detection engineering · automation · data tooling</strong>
+  <br>
+  Public-safe lab work for people who prefer logs over vibes.
+</p>
 
-| Area | Link | Focus |
+---
+
+## Lab Console
+
+```text
+ZEID DATA LAB > status
+
+mission        : evidence-first security engineering
+mode           : public-safe research
+focus          : detection logic, automation, dashboards, governance, malware analysis
+rule_001       : if it cannot show receipts, it does not ship
+robot_status   : sarcastic, but compliant
+```
+
+## Featured Work
+
+| Area | Link | What it gives you |
 |---|---|---|
-| Research Lab | [Research](https://github.com/zeiddata-dev/Research) | Public-safe security research, detection engineering, automation, and workbooks |
-| Detections | [detections](https://github.com/zeiddata-dev/Research/tree/main/detections) | KQL, Sigma, SPL, and defensive analytics |
-| Automation | [tools/scripts](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts) | Repeatable validators, collectors, and helper scripts |
-| Workbooks | [workbooks](https://github.com/zeiddata-dev/Research/tree/main/workbooks) | Dashboard and SOC-style analytics artifacts |
-| Research | [research](https://github.com/zeiddata-dev/Research/tree/main/research) | Malware research notes, white papers, and experiments |
+| Research Lab | [Research](https://github.com/zeiddata-dev/Research) | Main public lab for security research, detections, tools, workbooks, and docs. |
+| Detections | [detections](https://github.com/zeiddata-dev/Research/tree/main/detections) | KQL, Sigma, SPL, defensive analytics, and signal logic. |
+| Automation | [tools/scripts](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts) | Repeatable validators, collectors, and helper scripts. |
+| Workbooks | [workbooks](https://github.com/zeiddata-dev/Research/tree/main/workbooks) | Dashboard and SOC-style visual analytics artifacts. |
+| Research Notes | [research](https://github.com/zeiddata-dev/Research/tree/main/research) | Malware research notes, experiments, and public-safe writeups. |
+| Releases | [release history](https://github.com/zeiddata-dev/Research/releases) | Versioned public drops of stable lab content. |
 
-## Operating stance
+## What We Build
+
+<p align="center">
+  <img alt="Detection Engineering" src="https://img.shields.io/badge/Detection%20Engineering-KQL%20%7C%20Sigma%20%7C%20SPL-FFB800?style=for-the-badge">
+  <img alt="Security Research" src="https://img.shields.io/badge/Security%20Research-Public%20Safe-0B5FFF?style=for-the-badge">
+  <img alt="Automation" src="https://img.shields.io/badge/Automation-Python%20%7C%20PowerShell%20%7C%20Bash-2EA043?style=for-the-badge">
+  <img alt="Data Tooling" src="https://img.shields.io/badge/Data%20Tooling-Evidence%20Pipelines-00C7E5?style=for-the-badge">
+</p>
+
+## Operating Rules
 
 - Evidence first.
 - Defensive and authorized.
 - Public-safe by default.
-- No secrets, private logs, or credential material.
+- No secrets, private logs, credential material, or personal data.
+- Claims need artifacts, telemetry, references, or reproducible commands.
 - Automation should explain what it read, what it changed, and what proves it worked.
 
-## Current focus
+## Current Focus
 
-- Detection engineering.
-- Security operations workflows.
-- Public-safe malware research.
-- Data-driven investigation tooling.
-- GitHub-native documentation, releases, and validation.
+```text
+[active] detection engineering packs
+[active] security operations playbooks
+[active] public-safe malware research notes
+[active] data-driven investigation tooling
+[active] GitHub-native validation, releases, and documentation
+```
+
+## Quick Links
+
+<p align="center">
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/content"><img alt="Content" src="https://img.shields.io/badge/Content-00B8A9?style=flat-square"></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/detections"><img alt="Detections" src="https://img.shields.io/badge/Detections-FFB800?style=flat-square"></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/docs"><img alt="Docs" src="https://img.shields.io/badge/Docs-1F6FEB?style=flat-square"></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/projects"><img alt="Projects" src="https://img.shields.io/badge/Projects-7B61FF?style=flat-square"></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/tools/scripts"><img alt="Scripts" src="https://img.shields.io/badge/Scripts-2EA043?style=flat-square"></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/workbooks"><img alt="Workbooks" src="https://img.shields.io/badge/Workbooks-00C7E5?style=flat-square"></a>
+</p>
 
 ## Contact
 
 Website: [zeiddata.com](https://zeiddata.com)
 
 For sensitive security reports, use the security policy in the relevant repository.
+
+---
+
+<p align="center">
+  <sub>Built for receipts, not vibes. The robot is friendly. The pipeline is not.</sub>
+</p>
