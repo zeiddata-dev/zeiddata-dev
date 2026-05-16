@@ -36,6 +36,17 @@ rule_001       : if it cannot show receipts, it does not ship
 robot_status   : sarcastic, but compliant
 ```
 
+<!-- ZD_NOW_BUILDING_START -->
+## Now Building
+
+_Last updated by automation after the first workflow run._
+
+| Repo | Latest signal | Updated |
+|---|---|---|
+| [Research](https://github.com/zeiddata-dev/Research) | Waiting for the first dynamic update. | pending |
+
+<!-- ZD_NOW_BUILDING_END -->
+
 ## Featured Work
 
 | Area | Link | What it gives you |
