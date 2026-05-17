@@ -10,16 +10,8 @@
   <a href="https://github.com/zeiddata-dev/Research/security/policy"><img alt="Security Policy" src="https://img.shields.io/badge/Security%20Policy-D83B01?style=for-the-badge&logo=shield&logoColor=white"></a>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Evidence-first+security+research;Detection+engineering+with+receipts;Automation+that+says+what+it+changed;Robot+humor%2C+human+accountability" alt="Typing SVG">
-</p>
-
-<!-- ZD_LIVE_LAB_STATUS_START -->
-<h1 align="center">Zeid Data</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Live+security+research+lab;Detection+engineering+with+receipts;Automation+that+shows+its+work;Public-safe+research%2C+validated+by+CI" alt="Live Lab Status">
-</p>
+<!-- ZD_MISSION_CONTROL_START -->
+## Mission Control
 
 <p align="center">
   <a href="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml"><img alt="Repo Quality" src="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml/badge.svg"></a>
@@ -30,21 +22,18 @@
   <a href="https://github.com/zeiddata-dev/Research/issues"><img alt="Issues" src="https://img.shields.io/github/issues/zeiddata-dev/Research?style=flat-square&label=open%20issues&color=D83B01"></a>
 </p>
 
-<table align="center">
-  <tr>
-    <td><strong>Current build lane</strong></td>
-    <td>Research lab, detections, automation, workbooks, public-safe malware notes</td>
-  </tr>
-  <tr>
-    <td><strong>Operating rule</strong></td>
-    <td>Evidence first. If it cannot show receipts, it does not ship.</td>
-  </tr>
-  <tr>
-    <td><strong>Main repo</strong></td>
-    <td><a href="https://github.com/zeiddata-dev/Research">zeiddata-dev/Research</a></td>
-  </tr>
-</table>
-<!-- ZD_LIVE_LAB_STATUS_END -->
+| Signal | Source |
+|---|---|
+| Main lab | [zeiddata-dev/Research](https://github.com/zeiddata-dev/Research) |
+| Live build health | [GitHub Actions](https://github.com/zeiddata-dev/Research/actions) |
+| Stable drops | [Releases](https://github.com/zeiddata-dev/Research/releases) |
+| Detection work | [Detections](https://github.com/zeiddata-dev/Research/tree/main/detections) |
+| Automation | [Tools and scripts](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts) |
+| Dashboards | [Workbooks](https://github.com/zeiddata-dev/Research/tree/main/workbooks) |
+| External reference | [MITRE ATT&CK](https://attack.mitre.org/) |
+| Detection format reference | [Sigma Specification](https://sigmahq.io/sigma-specification/) |
+
+<!-- ZD_MISSION_CONTROL_END -->
 
 ---
 
