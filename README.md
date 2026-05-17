@@ -14,13 +14,37 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Evidence-first+security+research;Detection+engineering+with+receipts;Automation+that+says+what+it+changed;Robot+humor%2C+human+accountability" alt="Typing SVG">
 </p>
 
+<!-- ZD_LIVE_LAB_STATUS_START -->
 <h1 align="center">Zeid Data</h1>
 
 <p align="center">
-  <strong>Security research · detection engineering · automation · data tooling</strong>
-  <br>
-  Public-safe lab work for people who prefer logs over vibes.
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Live+security+research+lab;Detection+engineering+with+receipts;Automation+that+shows+its+work;Public-safe+research%2C+validated+by+CI" alt="Live Lab Status">
 </p>
+
+<p align="center">
+  <a href="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml"><img alt="Repo Quality" src="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml/badge.svg"></a>
+  <a href="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml"><img alt="README Link Check" src="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml/badge.svg"></a>
+  <a href="https://github.com/zeiddata-dev/Research/releases"><img alt="Latest Release" src="https://img.shields.io/github/v/release/zeiddata-dev/Research?style=flat-square&label=latest%20release&color=7B61FF"></a>
+  <a href="https://github.com/zeiddata-dev/Research/commits/main"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/zeiddata-dev/Research/main?style=flat-square&label=last%20commit&color=00C7E5"></a>
+  <a href="https://github.com/zeiddata-dev/Research/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/zeiddata-dev/Research?style=flat-square&label=stars&color=FFB800"></a>
+  <a href="https://github.com/zeiddata-dev/Research/issues"><img alt="Issues" src="https://img.shields.io/github/issues/zeiddata-dev/Research?style=flat-square&label=open%20issues&color=D83B01"></a>
+</p>
+
+<table align="center">
+  <tr>
+    <td><strong>Current build lane</strong></td>
+    <td>Research lab, detections, automation, workbooks, public-safe malware notes</td>
+  </tr>
+  <tr>
+    <td><strong>Operating rule</strong></td>
+    <td>Evidence first. If it cannot show receipts, it does not ship.</td>
+  </tr>
+  <tr>
+    <td><strong>Main repo</strong></td>
+    <td><a href="https://github.com/zeiddata-dev/Research">zeiddata-dev/Research</a></td>
+  </tr>
+</table>
+<!-- ZD_LIVE_LAB_STATUS_END -->
 
 ---
 
