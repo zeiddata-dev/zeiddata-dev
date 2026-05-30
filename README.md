@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=800&color=00B8A9&center=true&vCenter=true&width=620&lines=detection+logic+%7C+KQL+%7C+Sigma+%7C+SPL;you+leak+it%2C+we+fork+it%2C+then+fix+it+in+style;evidence+first.+no+receipts%2C+no+ship.;automation+%7C+dashboards+%7C+governance" alt="Typing animation">
+</p>
+
+<p align="center">
   <a href="https://zeiddata.com"><img alt="Website" src="https://img.shields.io/badge/Website-00B8A9?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://github.com/zeiddata-dev/Research"><img alt="Research Lab" src="https://img.shields.io/badge/Research%20Lab-0B5FFF?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://github.com/zeiddata-dev/Research/releases"><img alt="Releases" src="https://img.shields.io/badge/Releases-7B61FF?style=for-the-badge&logo=githubactions&logoColor=white"></a>
@@ -111,6 +115,14 @@ _Auto-updated from recent GitHub activity: 2026-05-30 19:40 UTC_
   <a href="https://github.com/zeiddata-dev/Research/tree/main/tools/scripts"><img alt="Scripts" src="https://img.shields.io/badge/Scripts-2EA043?style=flat-square"></a>
   <a href="https://github.com/zeiddata-dev/Research/tree/main/workbooks"><img alt="Workbooks" src="https://img.shields.io/badge/Workbooks-00C7E5?style=flat-square"></a>
 </p>
+
+## Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/snake.svg">
+</picture>
 
 ## Contact
 
