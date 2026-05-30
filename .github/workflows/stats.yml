@@ -1,0 +1,31 @@
+name: Refresh Profile Stats
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_USER: zeiddata-dev
+        run: python .github/scripts/generate_stats.py
+
+      - name: Push stats.svg to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin output 2>/dev/null || true
+          git checkout output 2>/dev/null || git checkout --orphan output
+          cp dist/stats.svg stats.svg
+          git add stats.svg
+          git diff --cached --quiet || git commit -m "refresh stats"
+          git push origin output
