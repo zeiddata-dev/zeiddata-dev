@@ -56,7 +56,7 @@ robot_status   : sarcastic, but compliant
 <!-- ZD_NOW_BUILDING_START -->
 ## Now Building
 
-_Auto-updated from recent GitHub activity: 2026-05-30 19:49 UTC_
+_Auto-updated from recent GitHub activity: 2026-05-30 19:40 UTC_
 
 | Repo | Latest signal | Updated |
 |---|---|---|
@@ -114,6 +114,12 @@ _Auto-updated from recent GitHub activity: 2026-05-30 19:49 UTC_
   <a href="https://github.com/zeiddata-dev/Research/tree/main/projects"><img alt="Projects" src="https://img.shields.io/badge/Projects-7B61FF?style=flat-square"></a>
   <a href="https://github.com/zeiddata-dev/Research/tree/main/tools/scripts"><img alt="Scripts" src="https://img.shields.io/badge/Scripts-2EA043?style=flat-square"></a>
   <a href="https://github.com/zeiddata-dev/Research/tree/main/workbooks"><img alt="Workbooks" src="https://img.shields.io/badge/Workbooks-00C7E5?style=flat-square"></a>
+</p>
+
+## Stats
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/stats.svg" alt="Signal Stats">
 </p>
 
 ## Contribution Activity
