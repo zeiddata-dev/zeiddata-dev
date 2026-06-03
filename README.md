@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zeiddata-dev/Research/main/assets/banners/readme/root.png" alt="Zeid Data Research" width="100%">
-</p>
+<img src="https://raw.githubusercontent.com/zeiddata-dev/Research/main/assets/banners/readme/root.png" alt="Zeid Data Research" width="100%" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1400&color=00C7E5&center=true&vCenter=true&width=700&lines=evidence+first.+always.;logs+don%27t+lie.+dashboards+shouldn%27t+either.;if+it+can%27t+show+receipts%2C+it+doesn%27t+ship.;open+source+is+how+we+audit+each+other.;detection+engineering+is+public+infrastructure.;the+pipeline+is+not+friendly.+the+docs+are." alt="Typing SVG" />
@@ -37,16 +35,13 @@
 
 ## Lab Console
 
-**ZEID DATA LAB > status**
-
-| | |
-|---|---|
-| mission | evidence-first security engineering |
-| mode | public-safe research |
-| focus | detection logic, automation, dashboards, governance, malware analysis |
-| rule_001 | if it cannot show receipts, it does not ship |
-| robot_status | sarcastic, but compliant |
-| community | open — file an issue, start a discussion, fork the repo |
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+</p>
 
 ---
 
@@ -166,27 +161,13 @@ Disagree with a rule? Make the argument [in a discussion](https://github.com/zei
 
 ---
 
-## Contribution Graph
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
-</picture>
-</p>
-
----
-
 ## Quick Links
 
 <p align="center">
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/content"><img src="https://img.shields.io/badge/Content-00B8A9?style=flat-square" alt="Content" /></a>
   <a href="https://github.com/zeiddata-dev/Research/tree/main/detections"><img src="https://img.shields.io/badge/Detections-FFB800?style=flat-square" alt="Detections" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/docs"><img src="https://img.shields.io/badge/Docs-1F6FEB?style=flat-square" alt="Docs" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/projects"><img src="https://img.shields.io/badge/Projects-7B61FF?style=flat-square" alt="Projects" /></a>
   <a href="https://github.com/zeiddata-dev/Research/tree/main/tools/scripts"><img src="https://img.shields.io/badge/Scripts-2EA043?style=flat-square" alt="Scripts" /></a>
   <a href="https://github.com/zeiddata-dev/Research/tree/main/workbooks"><img src="https://img.shields.io/badge/Workbooks-00C7E5?style=flat-square" alt="Workbooks" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/releases"><img src="https://img.shields.io/badge/Releases-7B61FF?style=flat-square" alt="Releases" /></a>
 </p>
 
 ---
