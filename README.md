@@ -18,6 +18,14 @@
   <a href="https://github.com/zeiddata-dev/Research/issues/new?template=detection-gap.md"><img src="https://img.shields.io/badge/Report%20a%20Detection%20Gap-File%20an%20Issue-D83B01?style=for-the-badge&logo=target&logoColor=white" alt="Report a Detection Gap" /></a>
 </p>
 
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/snake.svg" width="100%" />
+</picture>
+</p>
+
 ---
 
 ## Mission Control
@@ -29,20 +37,6 @@ Live status from [zeiddata-dev/Research](https://github.com/zeiddata-dev/Researc
   <a href="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml"><img src="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml/badge.svg" alt="README Link Check" /></a>
   <a href="https://github.com/zeiddata-dev/Research/releases"><img src="https://img.shields.io/github/v/release/zeiddata-dev/Research?style=flat-square&label=latest%20release&color=7B61FF" alt="Latest Release" /></a>
   <a href="https://github.com/zeiddata-dev/Research/commits/main"><img src="https://img.shields.io/github/last-commit/zeiddata-dev/Research/main?style=flat-square&label=last%20commit&color=00C7E5" alt="Last Commit" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/stargazers"><img src="https://img.shields.io/github/stars/zeiddata-dev/Research?style=flat-square&label=stars&color=FFB800" alt="Stars" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/issues"><img src="https://img.shields.io/github/issues/zeiddata-dev/Research?style=flat-square&label=open%20issues&color=D83B01" alt="Open Issues" /></a>
-</p>
-
----
-
-## Lab Console
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
 </p>
 
 ---
