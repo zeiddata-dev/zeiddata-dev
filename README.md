@@ -6,22 +6,15 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1400&color=00C7E5&center=true&vCenter=true&width=700&lines=evidence+first.+always.;logs+don%27t+lie.+dashboards+shouldn%27t+either.;if+it+can%27t+show+receipts%2C+it+doesn%27t+ship.;open+source+is+how+we+audit+each+other.;detection+engineering+is+public+infrastructure.;the+pipeline+is+not+friendly.+the+docs+are." alt="Typing SVG" />
 </p>
 
----
+[![Website](https://img.shields.io/badge/Website-00B8A9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://zeiddata.com)
+[![Research Lab](https://img.shields.io/badge/Research%20Lab-0B5FFF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeiddata-dev/Research)
+[![Releases](https://img.shields.io/badge/Releases-7B61FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/zeiddata-dev/Research/releases)
+[![CI](https://img.shields.io/badge/CI-validated-22C55E?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/zeiddata-dev/Research/actions)
+[![Security Policy](https://img.shields.io/badge/Security%20Policy-D83B01?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/zeiddata-dev/Research/security/policy)
 
-<p align="center">
-  <a href="https://github.com/zeiddata-dev/Research/discussions/new/choose"><img src="https://img.shields.io/badge/Open%20a%20Discussion-Start%20Here-7B61FF?style=for-the-badge&logo=github&logoColor=white" alt="Open a Discussion" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/discussions/new?category=ideas"><img src="https://img.shields.io/badge/Suggest%20a%20Collaboration-Let%27s%20Build-2EA043?style=for-the-badge&logo=handshake&logoColor=white" alt="Suggest a Collaboration" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/detections"><img src="https://img.shields.io/badge/Browse%20Detection%20Library-KQL%20%7C%20Sigma%20%7C%20SPL-FFB800?style=for-the-badge&logo=elastic&logoColor=black" alt="Browse Detection Library" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/workbooks"><img src="https://img.shields.io/badge/Grab%20a%20Workbook-SOC%20Dashboards-00C7E5?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Grab a Workbook" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/zeiddata-dev/Research/issues/new?template=detection-gap.md"><img src="https://img.shields.io/badge/Report%20a%20Detection%20Gap-File%20an%20Issue-D83B01?style=for-the-badge&logo=target&logoColor=white" alt="Report a Detection Gap" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/releases/latest"><img src="https://img.shields.io/github/v/release/zeiddata-dev/Research?style=for-the-badge&label=Latest%20Drop&color=7B61FF&logo=githubactions&logoColor=white" alt="Latest Release" /></a>
-</p>
+[![Open a Discussion](https://img.shields.io/badge/Open%20a%20Discussion-Start%20Here-7B61FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeiddata-dev/Research/discussions/new/choose)
+[![Suggest a Collaboration](https://img.shields.io/badge/Suggest%20a%20Collaboration-Let%27s%20Build-2EA043?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/zeiddata-dev/Research/discussions/new?category=ideas)
+[![Report a Detection Gap](https://img.shields.io/badge/Report%20a%20Detection%20Gap-File%20an%20Issue-D83B01?style=for-the-badge&logo=target&logoColor=white)](https://github.com/zeiddata-dev/Research/issues/new?template=detection-gap.md)
 
 ---
 
@@ -49,16 +42,16 @@
 
 ## Lab Console
 
-```
-ZEID DATA LAB > status
+**ZEID DATA LAB > status**
 
-mission        : evidence-first security engineering
-mode           : public-safe research
-focus          : detection logic, automation, dashboards, governance, malware analysis
-rule_001       : if it cannot show receipts, it does not ship
-robot_status   : sarcastic, but compliant
-community      : open — file an issue, start a discussion, fork the repo
-```
+| | |
+|---|---|
+| mission | evidence-first security engineering |
+| mode | public-safe research |
+| focus | detection logic, automation, dashboards, governance, malware analysis |
+| rule_001 | if it cannot show receipts, it does not ship |
+| robot_status | sarcastic, but compliant |
+| community | open — file an issue, start a discussion, fork the repo |
 
 ---
 
@@ -121,13 +114,11 @@ Disagree with a rule? Make the argument [in a discussion](https://github.com/zei
 
 ## Current Focus
 
-```
-[active] detection engineering packs
-[active] security operations playbooks
-[active] public-safe malware research notes
-[active] data-driven investigation tooling
-[active] GitHub-native validation, releases, and documentation
-```
+- detection engineering packs
+- security operations playbooks
+- public-safe malware research notes
+- data-driven investigation tooling
+- GitHub-native validation, releases, and documentation
 
 ---
 
@@ -151,8 +142,6 @@ Disagree with a rule? Make the argument [in a discussion](https://github.com/zei
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
 </picture>
-
-*Snake runs daily via [`.github/workflows/snake.yml`](./.github/workflows/snake.yml). If it looks broken, the workflow hasn't run yet — trigger it manually from Actions.*
 
 ---
 
@@ -178,5 +167,4 @@ If something here helped you — open a discussion, file an issue, fork the repo
 
 ---
 
-<p align="center">Built for receipts. The robot is friendly. The pipeline is not.</p>
-           
+Built for receipts. The robot is friendly. The pipeline is not.
