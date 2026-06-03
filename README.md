@@ -6,15 +6,19 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1400&color=00C7E5&center=true&vCenter=true&width=700&lines=evidence+first.+always.;logs+don%27t+lie.+dashboards+shouldn%27t+either.;if+it+can%27t+show+receipts%2C+it+doesn%27t+ship.;open+source+is+how+we+audit+each+other.;detection+engineering+is+public+infrastructure.;the+pipeline+is+not+friendly.+the+docs+are." alt="Typing SVG" />
 </p>
 
-[![Website](https://img.shields.io/badge/Website-00B8A9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://zeiddata.com)
-[![Research Lab](https://img.shields.io/badge/Research%20Lab-0B5FFF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeiddata-dev/Research)
-[![Releases](https://img.shields.io/badge/Releases-7B61FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/zeiddata-dev/Research/releases)
-[![CI](https://img.shields.io/badge/CI-validated-22C55E?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/zeiddata-dev/Research/actions)
-[![Security Policy](https://img.shields.io/badge/Security%20Policy-D83B01?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/zeiddata-dev/Research/security/policy)
+<p align="center">
+  <a href="https://zeiddata.com"><img src="https://img.shields.io/badge/Website-00B8A9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://github.com/zeiddata-dev/Research"><img src="https://img.shields.io/badge/Research%20Lab-0B5FFF?style=for-the-badge&logo=github&logoColor=white" alt="Research Lab" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/releases"><img src="https://img.shields.io/badge/Releases-7B61FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Releases" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/actions"><img src="https://img.shields.io/badge/CI-validated-22C55E?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/security/policy"><img src="https://img.shields.io/badge/Security%20Policy-D83B01?style=for-the-badge&logo=shield&logoColor=white" alt="Security Policy" /></a>
+</p>
 
-[![Open a Discussion](https://img.shields.io/badge/Open%20a%20Discussion-Start%20Here-7B61FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeiddata-dev/Research/discussions/new/choose)
-[![Suggest a Collaboration](https://img.shields.io/badge/Suggest%20a%20Collaboration-Let%27s%20Build-2EA043?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/zeiddata-dev/Research/discussions/new?category=ideas)
-[![Report a Detection Gap](https://img.shields.io/badge/Report%20a%20Detection%20Gap-File%20an%20Issue-D83B01?style=for-the-badge&logo=target&logoColor=white)](https://github.com/zeiddata-dev/Research/issues/new?template=detection-gap.md)
+<p align="center">
+  <a href="https://github.com/zeiddata-dev/Research/discussions/new/choose"><img src="https://img.shields.io/badge/Open%20a%20Discussion-Start%20Here-7B61FF?style=for-the-badge&logo=github&logoColor=white" alt="Open a Discussion" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/discussions/new?category=ideas"><img src="https://img.shields.io/badge/Suggest%20a%20Collaboration-Let%27s%20Build-2EA043?style=for-the-badge&logo=handshake&logoColor=white" alt="Suggest a Collaboration" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/issues/new?template=detection-gap.md"><img src="https://img.shields.io/badge/Report%20a%20Detection%20Gap-File%20an%20Issue-D83B01?style=for-the-badge&logo=target&logoColor=white" alt="Report a Detection Gap" /></a>
+</p>
 
 ---
 
@@ -147,12 +151,14 @@ Disagree with a rule? Make the argument [in a discussion](https://github.com/zei
 
 ## Quick Links
 
-[![Content](https://img.shields.io/badge/Content-00B8A9?style=flat-square)](https://github.com/zeiddata-dev/Research/tree/main/content)
-[![Detections](https://img.shields.io/badge/Detections-FFB800?style=flat-square)](https://github.com/zeiddata-dev/Research/tree/main/detections)
-[![Docs](https://img.shields.io/badge/Docs-1F6FEB?style=flat-square)](https://github.com/zeiddata-dev/Research/tree/main/docs)
-[![Projects](https://img.shields.io/badge/Projects-7B61FF?style=flat-square)](https://github.com/zeiddata-dev/Research/tree/main/projects)
-[![Scripts](https://img.shields.io/badge/Scripts-2EA043?style=flat-square)](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts)
-[![Workbooks](https://img.shields.io/badge/Workbooks-00C7E5?style=flat-square)](https://github.com/zeiddata-dev/Research/tree/main/workbooks)
+<p align="center">
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/content"><img src="https://img.shields.io/badge/Content-00B8A9?style=flat-square" alt="Content" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/detections"><img src="https://img.shields.io/badge/Detections-FFB800?style=flat-square" alt="Detections" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/docs"><img src="https://img.shields.io/badge/Docs-1F6FEB?style=flat-square" alt="Docs" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/projects"><img src="https://img.shields.io/badge/Projects-7B61FF?style=flat-square" alt="Projects" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/tools/scripts"><img src="https://img.shields.io/badge/Scripts-2EA043?style=flat-square" alt="Scripts" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/tree/main/workbooks"><img src="https://img.shields.io/badge/Workbooks-00C7E5?style=flat-square" alt="Workbooks" /></a>
+</p>
 
 ---
 
@@ -167,4 +173,4 @@ If something here helped you — open a discussion, file an issue, fork the repo
 
 ---
 
-Built for receipts. The robot is friendly. The pipeline is not.
+<p align="center">Built for receipts. The robot is friendly. The pipeline is not.</p>
