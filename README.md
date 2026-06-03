@@ -22,6 +22,8 @@
 
 ## Mission Control
 
+Live status from [zeiddata-dev/Research](https://github.com/zeiddata-dev/Research).
+
 <p align="center">
   <a href="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml"><img src="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml/badge.svg" alt="Repo Quality" /></a>
   <a href="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml"><img src="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml/badge.svg" alt="README Link Check" /></a>
@@ -158,17 +160,6 @@ These are not credentials. They are the tools I use publicly and am glad to help
 
 ---
 
-## Quick Links
-
-<p align="center">
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/detections"><img src="https://img.shields.io/badge/Detections-FFB800?style=flat-square" alt="Detections" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/tools/scripts"><img src="https://img.shields.io/badge/Scripts-2EA043?style=flat-square" alt="Scripts" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/tree/main/workbooks"><img src="https://img.shields.io/badge/Workbooks-00C7E5?style=flat-square" alt="Workbooks" /></a>
-  <a href="https://github.com/zeiddata-dev/Research/releases"><img src="https://img.shields.io/badge/Releases-7B61FF?style=flat-square" alt="Releases" /></a>
-</p>
-
----
-
 ## Contact
 
 <p align="center">
@@ -177,7 +168,7 @@ These are not credentials. They are the tools I use publicly and am glad to help
   <a href="https://github.com/zeiddata-dev/Research/security/policy"><img src="https://img.shields.io/badge/Security%20Reports-D83B01?style=for-the-badge&logo=shield&logoColor=white" alt="Security Reports" /></a>
 </p>
 
-If something here helped you — open a discussion, file an issue, fork the repo. That's the whole model.
+<p align="center">If something here helped you — open a discussion, file an issue, fork the repo. That's the whole model.</p>
 
 ---
 
