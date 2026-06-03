@@ -24,23 +24,14 @@
 
 ## Mission Control
 
-[![Repo Quality](https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml/badge.svg)](https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml)
-[![README Link Check](https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml/badge.svg)](https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml)
-[![Latest Release](https://img.shields.io/github/v/release/zeiddata-dev/Research?style=flat-square&label=latest%20release&color=7B61FF)](https://github.com/zeiddata-dev/Research/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/zeiddata-dev/Research/main?style=flat-square&label=last%20commit&color=00C7E5)](https://github.com/zeiddata-dev/Research/commits/main)
-[![Stars](https://img.shields.io/github/stars/zeiddata-dev/Research?style=flat-square&label=stars&color=FFB800)](https://github.com/zeiddata-dev/Research/stargazers)
-[![Open Issues](https://img.shields.io/github/issues/zeiddata-dev/Research?style=flat-square&label=open%20issues&color=D83B01)](https://github.com/zeiddata-dev/Research/issues)
-
-| Signal | Source |
-| --- | --- |
-| Main lab | [zeiddata-dev/Research](https://github.com/zeiddata-dev/Research) |
-| Live build health | [GitHub Actions](https://github.com/zeiddata-dev/Research/actions) |
-| Stable drops | [Releases](https://github.com/zeiddata-dev/Research/releases) |
-| Detection work | [Detections](https://github.com/zeiddata-dev/Research/tree/main/detections) |
-| Automation | [Tools and scripts](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts) |
-| Dashboards | [Workbooks](https://github.com/zeiddata-dev/Research/tree/main/workbooks) |
-| External reference | [MITRE ATT&CK](https://attack.mitre.org/) |
-| Detection format reference | [Sigma Specification](https://sigmahq.io/sigma-specification/) |
+<p align="center">
+  <a href="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml"><img src="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml/badge.svg" alt="Repo Quality" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml"><img src="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml/badge.svg" alt="README Link Check" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/releases"><img src="https://img.shields.io/github/v/release/zeiddata-dev/Research?style=flat-square&label=latest%20release&color=7B61FF" alt="Latest Release" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/commits/main"><img src="https://img.shields.io/github/last-commit/zeiddata-dev/Research/main?style=flat-square&label=last%20commit&color=00C7E5" alt="Last Commit" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/stargazers"><img src="https://img.shields.io/github/stars/zeiddata-dev/Research?style=flat-square&label=stars&color=FFB800" alt="Stars" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/issues"><img src="https://img.shields.io/github/issues/zeiddata-dev/Research?style=flat-square&label=open%20issues&color=D83B01" alt="Open Issues" /></a>
+</p>
 
 ---
 
@@ -92,14 +83,50 @@ All projects are public and open to contribution. See [CONTRIBUTING.md](./CONTRI
 
 These are not credentials. They are the tools I use publicly and am glad to help you with.
 
-| Category | Tools |
-| --- | --- |
-| Detection Engineering | KQL · Sigma · SPL · YARA |
-| Platforms | Microsoft Sentinel · Elastic · Splunk · Chronicle |
-| Automation | Python · PowerShell · Bash · GitHub Actions |
-| Data & Pipelines | Pandas · Polars · dbt · REST APIs |
-| Infrastructure | Docker · Linux · Cloudflare · Terraform |
-| Research Methods | MITRE ATT&CK · OSINT · Log forensics · Malware triage |
+**Detection Engineering**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/KQL-00C7E5?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sigma-FFB800?style=flat-square&logoColor=black" />
+  <img src="https://img.shields.io/badge/SPL-D83B01?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/YARA-7B61FF?style=flat-square&logoColor=white" />
+</p>
+
+**Platforms**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft%20Sentinel-0B5FFF?style=flat-square&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elastic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chronicle-4285F4?style=flat-square&logo=google&logoColor=white" />
+</p>
+
+**Automation**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+</p>
+
+**Data & Pipelines**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST%20APIs-00B8A9?style=flat-square&logoColor=white" />
+</p>
+
+**Infrastructure**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+</p>
 
 ---
 
@@ -141,11 +168,13 @@ Disagree with a rule? Make the argument [in a discussion](https://github.com/zei
 
 ## Contribution Graph
 
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
 </picture>
+</p>
 
 ---
 
@@ -164,10 +193,11 @@ Disagree with a rule? Make the argument [in a discussion](https://github.com/zei
 
 ## Contact
 
-Website: [zeiddata.com](https://zeiddata.com)  
-LinkedIn: [company/zeid-data-analytics](https://www.linkedin.com/company/zeid-data-analytics)
-
-For sensitive security reports, use the security policy in the relevant repository.
+<p align="center">
+  <a href="https://zeiddata.com"><img src="https://img.shields.io/badge/zeiddata.com-00B8A9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://www.linkedin.com/company/zeid-data-analytics"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/zeiddata-dev/Research/security/policy"><img src="https://img.shields.io/badge/Security%20Reports-D83B01?style=for-the-badge&logo=shield&logoColor=white" alt="Security Reports" /></a>
+</p>
 
 If something here helped you — open a discussion, file an issue, fork the repo. That's the whole model.
 
