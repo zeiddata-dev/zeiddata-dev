@@ -70,45 +70,32 @@ Open to contribution. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the ground ru
 
 These are not credentials. They are the tools I use publicly and am glad to help you with.
 
-**Detection Engineering**
-
 <p align="center">
+  <sub><b>Detection Engineering</b></sub><br>
   <img src="https://img.shields.io/badge/KQL-00C7E5?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Sigma-FFB800?style=flat-square&logoColor=black" />
   <img src="https://img.shields.io/badge/SPL-D83B01?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/YARA-7B61FF?style=flat-square&logoColor=white" />
-</p>
-
-**Platforms**
-
-<p align="center">
+  <br><br>
+  <sub><b>Platforms</b></sub><br>
   <img src="https://img.shields.io/badge/Microsoft%20Sentinel-0B5FFF?style=flat-square&logo=microsoftazure&logoColor=white" />
   <img src="https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elastic&logoColor=white" />
   <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white" />
   <img src="https://img.shields.io/badge/Chronicle-4285F4?style=flat-square&logo=google&logoColor=white" />
-</p>
-
-**Automation**
-
-<p align="center">
+  <br><br>
+  <sub><b>Automation</b></sub><br>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-</p>
-
-**Data & Pipelines**
-
-<p align="center">
+  <br><br>
+  <sub><b>Data &amp; Pipelines</b></sub><br>
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" />
   <img src="https://img.shields.io/badge/REST%20APIs-00B8A9?style=flat-square&logoColor=white" />
-</p>
-
-**Infrastructure**
-
-<p align="center">
+  <br><br>
+  <sub><b>Infrastructure</b></sub><br>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
@@ -144,8 +131,8 @@ These are not credentials. They are the tools I use publicly and am glad to help
 ## GitHub Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=zeiddata-dev&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeiddata-dev&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zeiddata-dev&theme=github_dark" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zeiddata-dev&theme=github_dark" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -166,4 +153,4 @@ These are not credentials. They are the tools I use publicly and am glad to help
 
 ---
 
-<p align="center">Built for receipts. The robot is friendly. The pipeline is not.</p>
+<p align="center">Built for receipts. The robot is friendly. The owner is not.</p>
