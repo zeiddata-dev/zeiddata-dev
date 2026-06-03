@@ -61,7 +61,7 @@ A detection without a reference does not ship.
 
 Treat others the way you want to be treated when you are stuck at 2AM with a broken pipeline. Be direct. Be useful. Do not be a problem.
 
-For serious conduct issues, contact radwuan@zeiddata.com.
+For serious conduct issues, contact security@zeiddata.com.
 
 ---
 
