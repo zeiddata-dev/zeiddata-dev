@@ -19,7 +19,7 @@
 <p align="center">
   <a href="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml"><img src="https://github.com/zeiddata-dev/Research/actions/workflows/repo-quality.yml/badge.svg" alt="Repo Quality" /></a>
   &nbsp;
-  <a href="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml"><img src="https://github.com/zeiddata-dev/Research/actions/workflows/readme-link-check.yml/badge.svg" alt="README Link Check" /></a>
+ <img src="https://img.shields.io/badge/README-Link%20Check-7B61FF?style=flat-square" alt="README Link Check" />
   &nbsp;
   <a href="https://github.com/zeiddata-dev/Research/releases"><img src="https://img.shields.io/github/v/release/zeiddata-dev/Research?style=flat-square&label=latest%20release&color=7B61FF" alt="Latest Release" /></a>
   &nbsp;
