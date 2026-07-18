@@ -54,10 +54,6 @@ Open to contribution. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the ground ru
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/isometric-contributions.png" alt="Isometric contribution graph" width="90%" />
-</p>
-
-<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
@@ -66,11 +62,23 @@ Open to contribution. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the ground ru
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/commit-clock.svg" alt="Commit clock" width="480" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/isometric-contributions.png" alt="Isometric contribution graph" width="90%" />
+</p>
+
+<p align="center">
   <a href="https://zeiddata.com"><img src="https://img.shields.io/badge/zeiddata.com-D76233?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
   &nbsp;
   <a href="https://www.linkedin.com/company/zeid-data-analytics"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   &nbsp;
   <a href="https://github.com/zeiddata-dev/Research/security/policy"><img src="https://img.shields.io/badge/Security%20Reports-B5471F?style=flat-square&logo=shield&logoColor=white" alt="Security Reports" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/badges/built-for-ubuntu.svg" alt="Built for Ubuntu" height="35" />
 </p>
 
 <p align="center"><sub>Built for receipts. The lab light stays on.</sub></p>
