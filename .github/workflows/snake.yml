@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Contribution Art
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: write
 
@@ -19,6 +19,24 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: actions/checkout@v4
+        with:
+          repository: Spectrewolf8/isometric-contributions-embeds
+          ref: cb124be89e337784f3526af74a04677cd85c4164
+          path: isometric
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Render isometric contribution graph
+        working-directory: isometric
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm ci
+          node generate.js "${{ github.repository_owner }}" "" ../dist/isometric-contributions.png --stats
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
