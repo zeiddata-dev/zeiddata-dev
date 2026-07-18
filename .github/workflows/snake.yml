@@ -43,7 +43,8 @@ jobs:
 
       - name: Render commit clock
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.COMMIT_CLOCK_TOKEN || secrets.GITHUB_TOKEN }}
+          CLOCK_SCOPE: ${{ secrets.COMMIT_CLOCK_TOKEN != '' && 'all' || 'public' }}
         run: node scripts/commit-clock.mjs "${{ github.repository_owner }}" dist/commit-clock.svg
 
       - uses: crazy-max/ghaction-github-pages@v5

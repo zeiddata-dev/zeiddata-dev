@@ -6,6 +6,8 @@ import { writeFileSync } from "node:fs";
 
 const [username, output] = process.argv.slice(2);
 const token = process.env.GITHUB_TOKEN;
+// "all" when the token can see private repos, "public" otherwise; drives the card label
+const scope = process.env.CLOCK_SCOPE === "all" ? "all" : "public";
 const TIME_ZONE = "America/Chicago";
 const PAGES = 3;
 
@@ -105,7 +107,7 @@ function renderSVG(counts, total) {
   </style>
   <rect width="${W}" height="${H}" rx="10" fill="#161a20" stroke="#2a2f38" stroke-width="1" />
   <text x="24" y="36" class="verdict">${verdict}</text>
-  <text x="24" y="58" class="subtext">last ${total} public commits by local time (${TIME_ZONE})</text>
+  <text x="24" y="58" class="subtext">last ${total}${scope === "public" ? " public" : ""} commits by local time (${TIME_ZONE})</text>
 ${rows}
 </svg>
 `;

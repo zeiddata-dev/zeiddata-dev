@@ -79,6 +79,10 @@ Open to contribution. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the ground ru
 
 <p align="center">
   <img src="assets/badges/built-for-ubuntu.svg" alt="Built for Ubuntu" height="35" />
+  &nbsp;
+  <img src="assets/badges/overclock-winner-gold-2026.svg" alt="Overclock Winner Gold 2026" height="35" />
+  &nbsp;
+  <img src="assets/badges/no-edu.svg" alt="No EDU" height="35" />
 </p>
 
 <p align="center"><sub>Built for receipts. The lab light stays on.</sub></p>

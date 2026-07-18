@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103.09024000000001" height="38.5" viewBox="0 0 93.7184 35"><defs><filter id="primaryShadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="10" />
+        <feOffset dx="-1" dy="-1" result="offsetblur" />
+        <feFlood flood-color="#ffffff" />
+        <feComposite in2="offsetblur" operator="in" />
+        <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic" />
+        </feMerge>
+    </filter><filter id="secondaryShadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+        <feOffset dx="0.5" dy="1.5" result="offsetblur" />
+        <feFlood flood-color="#ffffff" />
+        <feComposite in2="offsetblur" operator="in" />
+        <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic" />
+        </feMerge>
+    </filter></defs><path d="M 10 0 L 40.08 0 L 40.08 35 L 10 35 Q 0 35 0 25 L 0 10 Q 0 0 10 0 Z" fill="#000000" /><path d="M 40.08 0 L 83.7184 0 Q 93.7184 0 93.7184 10 L 93.7184 25 Q 93.7184 35 83.7184 35 L 40.08 35 Z" fill="#000000" /><text x="20.04" y="17.5" dy="0.35em" font-size="12" font-family="Roboto, sans-serif" fill="#FFFFFF" text-anchor="middle" letter-spacing="2" font-weight="600" fill-opacity="1" filter="url(#primaryShadow)" style="text-transform: uppercase">NO</text><text x="66.89920000000001" y="17.5" dy="0.35em" font-size="12" font-family="Montserrat, sans-serif" fill="#FFFFFF" text-anchor="middle" letter-spacing="2" font-weight="900" fill-opacity="1" filter="url(#secondaryShadow)" style="text-transform: uppercase">EDU</text></svg>
