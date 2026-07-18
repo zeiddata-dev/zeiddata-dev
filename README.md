@@ -54,19 +54,35 @@ Open to contribution. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the ground ru
 ---
 
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/commit-clock.svg" alt="Commit clock" width="480" />
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/isometric-contributions.png" alt="Isometric contribution graph" width="90%" />
+</p>
+
+---
+
+## Skills, With Receipts
+
+Every claim below links to a working artifact in the lab. No receipt, no row.
+
+| Domain | Receipts |
+| :-- | :-- |
+| **Detection Engineering** | [KQL](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/queries/sentinel) &nbsp;·&nbsp; [Sigma](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/detections/sigma) &nbsp;·&nbsp; [SPL](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/queries/splunk) &nbsp;·&nbsp; [YARA](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/detections/yara) &nbsp;·&nbsp; [CVE packs](https://github.com/zeiddata-dev/Research/tree/main/detections/vendor-packs) |
+| **SIEM & EDR Platforms** | [Microsoft Sentinel](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/queries/sentinel) &nbsp;·&nbsp; [Splunk app](https://github.com/zeiddata-dev/Research/tree/main/content/vendors/Zeid%20Data%20Splunk%20App%20-%20Exfil%20Watch) &nbsp;·&nbsp; [Elastic](https://github.com/zeiddata-dev/Research/tree/main/content/vendors/island/zeid_data_elk_stack_connector) &nbsp;·&nbsp; [CrowdStrike](https://github.com/zeiddata-dev/Research/tree/main/content/vendors/crowdstrike) &nbsp;·&nbsp; [Cisco](https://github.com/zeiddata-dev/Research/tree/main/content/vendors/cisco) |
+| **Automation & Tooling** | [Python](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts/automation) &nbsp;·&nbsp; [C++](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts/automation/zeid_data_sha256_manifest_cpp) &nbsp;·&nbsp; [Validators](https://github.com/zeiddata-dev/Research/tree/main/tools/validators) &nbsp;·&nbsp; [GitHub Actions](https://github.com/zeiddata-dev/zeiddata-dev/blob/main/.github/workflows/snake.yml) (this page builds itself) |
+| **Threat Research** | [Qilin ransomware](https://github.com/zeiddata-dev/Research/tree/main/research/malware/qilin) &nbsp;·&nbsp; [PromptFlux / FruitShell](https://github.com/zeiddata-dev/Research/tree/main/research/malware/promptflux_fruitshell) &nbsp;·&nbsp; [White papers](https://github.com/zeiddata-dev/Research/tree/main/research/white-papers) |
+| **SOC Operations** | [Playbooks & dashboards](https://github.com/zeiddata-dev/Research/tree/main/workbooks/dashboards/Security%20Operations%20Playbooks) for AWS, Okta, Palo Alto, CrowdStrike, Snowflake, and five more platforms |
+
+---
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 </p>
 
 <p align="center">
