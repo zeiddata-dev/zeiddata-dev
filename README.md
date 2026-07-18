@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.gif" />
-  <img src="assets/banner.gif" alt="Zeid Data - OSINT Labs" width="100%" />
-</picture>
+<img src="assets/banner.gif" alt="Zeid Data - OSINT Labs" width="100%" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1400&color=E8C37E&center=true&vCenter=true&width=700&lines=evidence+first.+always.;logs+don%27t+lie.+dashboards+shouldn%27t+either.;if+it+can%27t+show+receipts%2C+it+doesn%27t+ship.;open+source+is+how+we+audit+each+other.;detection+engineering+is+public+infrastructure.;the+pipeline+is+not+friendly.+the+docs+are." alt="Typing SVG" />
@@ -57,7 +54,11 @@ Open to contribution. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the ground ru
 ---
 
 <p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/commit-clock.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/commit-clock-light.svg" />
   <img src="https://raw.githubusercontent.com/zeiddata-dev/zeiddata-dev/output/commit-clock.svg" alt="Commit clock" width="480" />
+</picture>
 </p>
 
 <p align="center">

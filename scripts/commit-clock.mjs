@@ -68,7 +68,18 @@ function bucketize(dates) {
   return counts;
 }
 
-function renderSVG(counts, total) {
+const PALETTES = {
+  dark: {
+    bg: "#161a20", border: "#2a2f38", verdict: "#e8c37e", subtext: "#8b93a1",
+    label: "#e6e1d6", count: "#e8c37e", pct: "#8b93a1", track: "#2a2f38",
+  },
+  light: {
+    bg: "#fdfaf4", border: "#e3d9c6", verdict: "#b5471f", subtext: "#6f6a5f",
+    label: "#20242c", count: "#b5471f", pct: "#6f6a5f", track: "#ece5d4",
+  },
+};
+
+function renderSVG(counts, total, p) {
   const dayCount = counts.morning + counts.daytime;
   const verdict =
     dayCount >= total - dayCount
@@ -91,7 +102,7 @@ function renderSVG(counts, total) {
     const fill = i % 2 === 0 ? "#d76233" : "#c08a52";
     return `
     <text x="24" y="${y + 17}" class="label">${b.emoji} ${b.label}</text>
-    <rect x="${barX}" y="${y + 4}" width="${barMax}" height="16" rx="8" fill="#2a2f38" />
+    <rect x="${barX}" y="${y + 4}" width="${barMax}" height="16" rx="8" fill="${p.track}" />
     <rect x="${barX}" y="${y + 4}" width="${w}" height="16" rx="8" fill="${fill}" />
     <text x="${barX + barMax + 16}" y="${y + 17}" class="count">${count}</text>
     <text x="${W - 24}" y="${y + 17}" text-anchor="end" class="pct">${pct}%</text>`;
@@ -99,13 +110,13 @@ function renderSVG(counts, total) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   <style>
-    .verdict { font: 600 18px "Segoe UI", Ubuntu, sans-serif; fill: #e8c37e; }
-    .subtext { font: 400 12px "Segoe UI", Ubuntu, sans-serif; fill: #8b93a1; }
-    .label   { font: 600 14px "Segoe UI", Ubuntu, sans-serif; fill: #e6e1d6; }
-    .count   { font: 600 13px "Segoe UI", Ubuntu, sans-serif; fill: #e8c37e; }
-    .pct     { font: 400 13px "Segoe UI", Ubuntu, sans-serif; fill: #8b93a1; }
+    .verdict { font: 600 18px "Segoe UI", Ubuntu, sans-serif; fill: ${p.verdict}; }
+    .subtext { font: 400 12px "Segoe UI", Ubuntu, sans-serif; fill: ${p.subtext}; }
+    .label   { font: 600 14px "Segoe UI", Ubuntu, sans-serif; fill: ${p.label}; }
+    .count   { font: 600 13px "Segoe UI", Ubuntu, sans-serif; fill: ${p.count}; }
+    .pct     { font: 400 13px "Segoe UI", Ubuntu, sans-serif; fill: ${p.pct}; }
   </style>
-  <rect width="${W}" height="${H}" rx="10" fill="#161a20" stroke="#2a2f38" stroke-width="1" />
+  <rect width="${W}" height="${H}" rx="10" fill="${p.bg}" stroke="${p.border}" stroke-width="1" />
   <text x="24" y="36" class="verdict">${verdict}</text>
   <text x="24" y="58" class="subtext">last ${total}${scope === "public" ? " public" : ""} commits by local time (${TIME_ZONE})</text>
 ${rows}
@@ -116,5 +127,7 @@ ${rows}
 const dates = await fetchCommitDates();
 const counts = bucketize(dates);
 console.log(`Fetched ${dates.length} commits:`, counts);
-writeFileSync(output, renderSVG(counts, dates.length));
-console.log(`wrote ${output}`);
+const lightOutput = output.replace(/\.svg$/, "-light.svg");
+writeFileSync(output, renderSVG(counts, dates.length, PALETTES.dark));
+writeFileSync(lightOutput, renderSVG(counts, dates.length, PALETTES.light));
+console.log(`wrote ${output} and ${lightOutput}`);

@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#d76233&color_dots=#f0ece3,#e8c37e,#c08a52,#d76233,#b5471f
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#d76233&color_dots=#20242c,#5f3b22,#b5471f,#d76233,#e8c37e
 
       - uses: actions/checkout@v7
         with:
@@ -39,6 +39,18 @@ jobs:
         run: |
           sudo chown -R "$USER" ../dist
           npm ci
+          # retheme the hardcoded default (github) palette to brand colors
+          sed -i \
+            -e 's/#24292f/#c08a52/g' \
+            -e 's/#2BD853/#e8c37e/g' \
+            -e 's/#2ea043/#d76233/g' \
+            -e 's/#57606a/#8b93a1/g' \
+            -e 's/#161b22/#20242c/g' \
+            -e 's/#0e4429/#5f3b22/g' \
+            -e 's/#006d32/#b5471f/g' \
+            -e 's/#26a641/#d76233/g' \
+            -e 's/#39d353/#e8c37e/g' \
+            src/theme-config.js
           node generate.js "${{ github.repository_owner }}" "" ../dist/isometric-contributions.png --stats
 
       - name: Render commit clock
