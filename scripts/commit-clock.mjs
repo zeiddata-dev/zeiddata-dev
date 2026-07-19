@@ -86,12 +86,12 @@ function renderSVG(counts, total, p) {
       ? "I'm an early bird \u{1F424}"
       : "I'm a night owl \u{1F989}";
 
-  const W = 480;
+  const W = 880;
   const rowH = 34;
   const top = 78;
   const H = top + BUCKETS.length * rowH + 24;
   const barX = 150;
-  const barMax = 200;
+  const barMax = W - 280;
   const maxCount = Math.max(...Object.values(counts), 1);
 
   const rows = BUCKETS.map((b, i) => {
