@@ -102,13 +102,14 @@ function renderSVG(counts, hours, total, p) {
       ? "I'm an early bird \u{1F424}"
       : "I'm a night owl \u{1F989}";
 
-  const W = 480;
-  const H = 486;
-  const cx = 240;
-  const cy = 252;
-  const R = 148;      // outer grid ring
+  // full readme width: radar dial on the left, bucket bars on the right
+  const W = 880;
+  const H = 424;
+  const cx = 250;
+  const cy = 240;
+  const R = 145;      // outer grid ring
   const r0 = 22;      // spoke inner radius
-  const rMax = 140;   // spoke outer radius at max count
+  const rMax = 137;   // spoke outer radius at max count
   const maxCount = Math.max(...hours, 1);
   // hour 0 (midnight) points up; hours advance clockwise like a 24h dial
   const angle = (h) => h * 15 - 90;
@@ -178,12 +179,23 @@ ${wedges}
     })
     .join("\n");
 
+  const rowH = 42;
+  const labelX = 520;
+  const barX = 650;
+  const barMax = W - barX - 130;
+  const rowTop = cy - (BUCKETS.length * rowH) / 2 + 4;
+  const maxBucket = Math.max(...Object.values(counts), 1);
   const legend = BUCKETS.map((b, i) => {
-    const x = 60 + i * 120;
+    const y = rowTop + i * rowH;
     const count = counts[b.key];
     const pct = total ? ((count / total) * 100).toFixed(1) : "0.0";
-    return `  <text x="${x}" y="448" text-anchor="middle" class="label">${b.emoji} ${b.label}</text>
-  <text x="${x}" y="468" text-anchor="middle"><tspan class="count">${count}</tspan><tspan class="pct"> · ${pct}%</tspan></text>`;
+    const w = Math.max(3, Math.round((count / maxBucket) * barMax));
+    const fill = i % 2 === 0 ? "#d76233" : "#c08a52";
+    return `  <text x="${labelX}" y="${y + 17}" class="label">${b.emoji} ${b.label}</text>
+  <rect x="${barX}" y="${y + 4}" width="${barMax}" height="16" rx="8" fill="${p.track}" />
+  <rect x="${barX}" y="${y + 4}" width="${w}" height="16" rx="8" fill="${fill}" />
+  <text x="${barX + barMax + 14}" y="${y + 17}" class="count">${count}</text>
+  <text x="${W - 24}" y="${y + 17}" text-anchor="end" class="pct">${pct}%</text>`;
   }).join("\n");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
