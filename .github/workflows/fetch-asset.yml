@@ -1,0 +1,34 @@
+name: Fetch remote asset
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: HTTPS URL of the asset to download
+        required: true
+        type: string
+      path:
+        description: Repository path to save the asset to
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and commit asset
+        env:
+          ASSET_URL: ${{ inputs.url }}
+          ASSET_PATH: ${{ inputs.path }}
+        run: |
+          mkdir -p "$(dirname "$ASSET_PATH")"
+          curl -fsSL "$ASSET_URL" -o "$ASSET_PATH"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$ASSET_PATH"
+          git commit -m "Add fetched asset: $ASSET_PATH"
+          git push
