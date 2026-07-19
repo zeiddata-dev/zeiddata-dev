@@ -1,16 +1,9 @@
-name: Fetch remote asset
+name: Fetch hero asset
 
 on:
-  workflow_dispatch:
-    inputs:
-      url:
-        description: HTTPS URL of the asset to download
-        required: true
-        type: string
-      path:
-        description: Repository path to save the asset to
-        required: true
-        type: string
+  push:
+    branches:
+      - claude/web-page-higgsfield-nm4w6o
 
 permissions:
   contents: write
@@ -22,13 +15,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download and commit asset
         env:
-          ASSET_URL: ${{ inputs.url }}
-          ASSET_PATH: ${{ inputs.path }}
+          ASSET_URL: https://d8j0ntlcm91z4.cloudfront.net/user_3GdJVDncMj4Xzu3oliLfC0TxD9K/hf_20260719_155106_23b2cf1d-6aa6-4ac3-8701-2b4189a10af6.png
+          ASSET_PATH: assets/higgsfield/hero.png
         run: |
+          if [ -f "$ASSET_PATH" ]; then
+            echo "Asset already present, nothing to do."
+            exit 0
+          fi
           mkdir -p "$(dirname "$ASSET_PATH")"
           curl -fsSL "$ASSET_URL" -o "$ASSET_PATH"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$ASSET_PATH"
-          git commit -m "Add fetched asset: $ASSET_PATH"
+          git commit -m "Add Higgsfield hero asset"
           git push
