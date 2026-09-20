@@ -1,6 +1,8 @@
 <img src="assets/zeid-data-design-studio.gif?v=2" alt="Zeid Data | >> — Develop, Design, Distribute — animated terminal banner" width="100%" />
 
-<img src="assets/data-loom.gif" alt="Data Loom — an animated studio illustration: irregular threads pass through a loom and emerge as a precise woven grid. Develop, Design, Distribute." width="100%" />
+[![Data Loom — public commit history woven into Security & Research, Apps & Automation, Web & Design, and Reports & Publishing.](assets/data-loom.svg)](data/data-loom.md)
+
+<sub>Past public commits, grouped by repository work area. Filled tiles show recorded counts; moving highlights illustrate the flow. Refreshed daily. [Counts, sources & scope](data/data-loom.md).</sub>
 
 <p align="center">
   <a href="https://zeiddata.com"><img src="https://img.shields.io/badge/zeiddata.com-D76233?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
