@@ -16,14 +16,14 @@
 
 ## In the Lab
 
-Private until they ship. Public drops land in [Research](https://github.com/zeiddata-dev/Research).
+Project statuses are maintained manually. Public research drops land in [Research](https://github.com/zeiddata-dev/Research).
 
 | Project | What it is | Status |
 | :-- | :-- | :-- |
-| **Lithium** | Evidence-first monitoring dashboard and bot environment | `internal` |
+| **Lithium** | Evidence-first monitoring dashboard and bot environment | `ongoing` |
 | **EQ** | Multi-user evidence and policy platform | `building` |
 | **Threat Dashboard** | Admin visibility dashboards over live telemetry | `building` |
-| **Messaging Platform** | Self-hosted secure messaging stack | `building` |
+| **Messaging Platform** | Self-hosted secure messaging stack | `sold` |
 
 ---
 
@@ -43,15 +43,17 @@ Open to contribution. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the ground ru
 
 ## Operating Rules
 
-| Rule | |
+| Rule | What it means |
 | :-- | :-- |
 | **Evidence first** | No claim ships without an artifact, log reference, or reproducible command. |
 | **Defensive and authorized** | All work is scoped to authorized, public-safe security engineering. |
 | **No secrets** | No credentials, private logs, or personal data in any project artifact. |
 | **Automation is accountable** | Scripts explain what they read, what they changed, and what proves it worked. |
-| **Disagree?** | [Open a discussion.](https://github.com/zeiddata-dev/Research/discussions/new/choose) Evidence required. |
+| **Disagree?** | [Open an issue.](https://github.com/zeiddata-dev/Research/issues/new) Evidence required. |
 
 ---
+
+The graphs are [refreshed daily by GitHub Actions](https://github.com/zeiddata-dev/zeiddata-dev/actions/workflows/snake.yml); they are snapshots, not live counters. The commit clock samples the latest 300 commits returned by GitHub search in America/Chicago time. The contribution graphs show the last year of activity reported by GitHub.
 
 <p align="center">
 <picture>
@@ -75,7 +77,7 @@ Every claim below links to a working artifact in the lab. No receipt, no row.
 | :-- | :-- |
 | **Detection Engineering** | [KQL](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/queries/sentinel) &nbsp;·&nbsp; [Sigma](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/detections/sigma) &nbsp;·&nbsp; [SPL](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/queries/splunk) &nbsp;·&nbsp; [YARA](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/detections/yara) &nbsp;·&nbsp; [CVE packs](https://github.com/zeiddata-dev/Research/tree/main/detections/vendor-packs) |
 | **SIEM & EDR Platforms** | [Microsoft Sentinel](https://github.com/zeiddata-dev/Research/tree/main/research/malware/claude/queries/sentinel) &nbsp;·&nbsp; [Splunk app](https://github.com/zeiddata-dev/Research/tree/main/content/vendors/Zeid%20Data%20Splunk%20App%20-%20Exfil%20Watch) &nbsp;·&nbsp; [Elastic](https://github.com/zeiddata-dev/Research/tree/main/content/vendors/island/zeid_data_elk_stack_connector) &nbsp;·&nbsp; [CrowdStrike](https://github.com/zeiddata-dev/Research/tree/main/content/vendors/crowdstrike) &nbsp;·&nbsp; [Cisco](https://github.com/zeiddata-dev/Research/tree/main/content/vendors/cisco) |
-| **Automation & Tooling** | [Python](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts/automation) &nbsp;·&nbsp; [C++](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts/automation/zeid_data_sha256_manifest_cpp) &nbsp;·&nbsp; [Validators](https://github.com/zeiddata-dev/Research/tree/main/tools/validators) &nbsp;·&nbsp; [GitHub Actions](https://github.com/zeiddata-dev/zeiddata-dev/blob/main/.github/workflows/snake.yml) (this page builds itself) |
+| **Automation & Tooling** | [Python](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts/automation) &nbsp;·&nbsp; [C++](https://github.com/zeiddata-dev/Research/tree/main/tools/scripts/automation/zeid_data_sha256_manifest_cpp) &nbsp;·&nbsp; [Validators](https://github.com/zeiddata-dev/Research/tree/main/tools/validators) &nbsp;·&nbsp; [GitHub Actions](https://github.com/zeiddata-dev/zeiddata-dev/blob/main/.github/workflows/snake.yml) (the graphs refresh daily) |
 | **Threat Research** | [Qilin ransomware](https://github.com/zeiddata-dev/Research/tree/main/research/malware/qilin) &nbsp;·&nbsp; [PromptFlux / FruitShell](https://github.com/zeiddata-dev/Research/tree/main/research/malware/promptflux_fruitshell) &nbsp;·&nbsp; [White papers](https://github.com/zeiddata-dev/Research/tree/main/research/white-papers) |
 | **SOC Operations** | [Playbooks & dashboards](https://github.com/zeiddata-dev/Research/tree/main/workbooks/dashboards/Security%20Operations%20Playbooks) for AWS, Okta, Palo Alto, CrowdStrike, Snowflake, and five more platforms |
 
