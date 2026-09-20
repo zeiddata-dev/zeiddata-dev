@@ -1,8 +1,6 @@
 name: Refresh Data Loom
 
 on:
-  schedule:
-    - cron: '30 6 * * *'
   workflow_dispatch:
 
 concurrency:
