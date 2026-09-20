@@ -1,10 +1,6 @@
 <img src="assets/zeid-data-design-studio.gif" alt="Zeid Data | > Design Studio — animated terminal banner" width="100%" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1400&color=E8C37E&center=true&vCenter=true&width=700&lines=evidence+first.+always.;logs+don%27t+lie.+dashboards+shouldn%27t+either.;if+it+can%27t+show+receipts%2C+it+doesn%27t+ship.;open+source+is+how+we+audit+each+other.;detection+engineering+is+public+infrastructure.;the+pipeline+is+not+friendly.+the+docs+are." alt="Typing SVG" />
-</p>
-
-<p align="center">
   <a href="https://zeiddata.com"><img src="https://img.shields.io/badge/zeiddata.com-D76233?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
   &nbsp;
   <a href="https://github.com/zeiddata-dev/Research"><img src="https://img.shields.io/badge/Research%20Lab-C08A52?style=for-the-badge&logo=github&logoColor=white" alt="Research Lab" /></a>
