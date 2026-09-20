@@ -6,7 +6,7 @@ Unique commits attributed to owner on the current default branches of owned publ
 
 Repository topics determine the work-area category, with explicit overrides in [the generator](../scripts/data-loom.mjs). This classifies projects, not individual commit intent. Commits shared across forks count once, preferring non-forks, then repository name. Private work, other owners' repositories, unmatched author identities, and commits only on non-default branches are outside this view. Commits measure activity, not effort or completed deliverables. Default-branch history or visibility changes can lower totals.
 
-Filled tiles are the stored counts, not a completion target. All rows share a scale; a final partial tile represents the remainder. The scale grows when needed. Moving highlights are decorative and never add counts. Refresh runs daily; API errors fail the run rather than publishing a partial result.
+One shared woven block stores the counts, filled down columns from left to right. Category colors occupy proportional portions of the same fabric. Each cell has the displayed commit weight; partial cells preserve exact counts. Empty cells are spare capacity, not a completion target. The cell weight grows when needed. Moving highlights are decorative and never add counts. Refresh runs daily; API errors fail the run rather than publishing a partial result.
 
 | Work area | Commits |
 | --- | ---: |

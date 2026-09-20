@@ -9,15 +9,18 @@ test('work areas honor specific topics before generic languages',()=>{
   assert.equal(classify({name:'tool',topics:['developer-tools']}),'apps');
   assert.equal(classify({name:'new-unknown',topics:[]}),'other');
 });
-test('partial tiles preserve exact counts on one shared scale',()=>{
-  const svg=render({total:43,categories:[{label:'A & B',count:43,color:'#506b65'}],repositories:[],checkedAt:'2026-09-20T00:00:00Z'});
-  assert.match(svg,/1 TILE = 2 COMMITS/);
-  assert.equal((svg.match(/height="13" fill="#506b65"/g)||[]).length,22);
-  assert.match(svg,/width="4.75" height="13" fill="#506b65"/);
+test('one shared fabric preserves exact category counts in partial cells',()=>{
+  const svg=render({total:643,categories:[{id:'a',label:'A & B',count:641,color:'#506b65'},{id:'b',label:'B',count:2,color:'#738779'}],repositories:[],checkedAt:'2026-09-20T00:00:00Z'});
+  assert.match(svg,/1 CELL = 2 COMMITS/);
+  const counts={};
+  for(const m of svg.matchAll(/data-commits="(\d+)" data-category="([^"]+)"/g)) counts[m[2]]=(counts[m[2]]||0)+Number(m[1]);
+  assert.deepEqual(counts,{a:641,b:2});
+  assert.equal((svg.match(/id="central-loom"/g)||[]).length,1);
+  assert.equal((svg.match(/id="woven-block"/g)||[]).length,1);
   assert.match(svg,/A &amp; B/);
 });
 test('empty history renders no fabricated activity',()=>{
   const svg=render({total:0,categories:[],repositories:[],checkedAt:'2026-09-20T00:00:00Z'});
   assert.match(svg,/0 PUBLIC COMMITS/);
-  assert.doesNotMatch(svg,/height="13" fill="#506b65"/);
+  assert.doesNotMatch(svg,/data-commits=/);
 });
