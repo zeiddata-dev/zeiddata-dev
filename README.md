@@ -1,4 +1,4 @@
-<img src="assets/zeid-data-design-studio.gif" alt="Zeid Data | > Design Studio — animated terminal banner" width="100%" />
+<img src="assets/zeid-data-design-studio.gif?v=2" alt="Zeid Data | >> — Develop, Design, Distribute — animated terminal banner" width="100%" />
 
 <p align="center">
   <a href="https://zeiddata.com"><img src="https://img.shields.io/badge/zeiddata.com-D76233?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
