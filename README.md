@@ -1,4 +1,7 @@
-<img src="assets/zeid-data-design-studio.gif?v=2" alt="Zeid Data | >> — Develop, Design, Distribute — animated terminal banner" width="100%" />
+<picture>
+  <source type="image/webp" srcset="assets/zeid-data-paint-banner.webp?v=1" />
+  <img src="assets/zeid-data-paint-banner.gif?v=1" alt="Zeid Data. Animated oil painting: the silver Z mark dripping paint beside a figure whose hair and dress melt into brushstrokes" width="100%" />
+</picture>
 
 <p align="center">
   <a href="https://zeiddata.com"><img src="https://img.shields.io/badge/zeiddata.com-D76233?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
